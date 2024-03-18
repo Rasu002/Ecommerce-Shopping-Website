@@ -1,0 +1,375 @@
+/* Top Logo and Navigation creation */
+
+.logo-nav{
+    border: 1px solid rgba(192, 180, 180, 0.345);
+    height: 100px;
+    width: 100%;
+    margin-top: -7px;
+    background-color: rgba(192, 180, 180, 0.345);
+    
+}
+
+.logo-top>h2{
+    display:flex;
+    font-family:serif;
+    font-size:1.3rem;
+    font-style:oblique;
+    font-weight:bolder;
+    margin-left:80px;
+    margin-top: -2.6rem;
+}
+.logo-top>img{
+    margin-left: 3rem;
+    margin-top: 20px;
+    height: 4rem;
+    text-align: left;
+}
+.nav>ul{
+    margin-right: 2rem;
+    text-decoration: none;
+    text-align: right;
+    margin-top: -3.5rem;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav li{
+    text-align: right;
+    font-size: 1.3rem;
+    margin-right: 3%;
+    display: inline;
+    
+}
+.nav .product{
+    border: 3px solid rgb(234, 10, 200);
+}
+/* our produts */
+
+.our-products h2{
+    text-align: center;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.our-products .ourproduct_row1{
+    display: flex;
+    width: 100%;
+}
+
+.ourproduct_row1 .ourproduct_img_col1{
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 5%;
+
+}
+.ourproduct_img_col1>img{
+    margin-top: 20px;
+    width: 65%;
+    padding-left: 13%;
+}
+.ourproduct_img_col1 h3{
+    margin-top: 20%;
+    padding-left:5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ourproduct_img_col1 .star{
+    color: rgb(255, 149, 0);
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: -20px;
+}
+.ourproduct_img_col1 .price{
+    font-size: 30px;
+    margin-top: 5px;
+    padding-left: 5%;
+}
+.ourproduct_img_col1 a{
+    position: absolute;
+    width: 9%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 5px;
+    margin-top: -4.5%;
+    margin-left: 14%;
+    background-color:rgb(226, 136, 19);
+}
+.ourproduct_img_col1 a:hover{
+    background-color: rgba(105, 80, 17, 0.774);
+}
+
+/* Column2 Iphone Watch */
+.ourproduct_img_col2{
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 5%;
+
+}
+.ourproduct_img_col2>img{
+    width: 67%;
+    padding-left: 13%;
+}
+.ourproduct_img_col2 h3{
+    padding-left:5%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ourproduct_img_col2 .star{
+    color: rgb(255, 149, 0);
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: -20px;
+}
+.ourproduct_img_col2 .price{
+    font-size: 30px;
+    margin-top: 5px;
+    padding-left: 5%;
+}
+.ourproduct_img_col2 a{
+    text-align: center;
+    width: 9%;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 5px;
+    margin-top: -4.5%;
+    margin-left: 16%;
+    background-color:rgb(226, 136, 19);
+}
+.ourproduct_img_col2 a:hover{
+    background-color: rgba(105, 80, 17, 0.774);
+}
+
+/* Column3 Sunglass image */
+
+.ourproduct_img_col3{
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 5%;
+
+}
+.ourproduct_img_col3>img{
+    width: 70%;
+    padding-left: 13%;
+}
+.ourproduct_img_col3 h3{
+    padding-left:5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ourproduct_img_col3 .star{
+    color: rgb(255, 149, 0);
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: -20px;
+}
+.ourproduct_img_col3 .price{
+    font-size: 30px;
+    margin-top: 5px;
+    padding-left: 5%;
+}
+.ourproduct_img_col3 a{
+    text-align: center;
+    width: 9%;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 5px;
+    margin-top: -5%;
+    margin-left: 16%;
+    background-color:rgb(226, 136, 19);
+}
+.ourproduct_img_col3 a:hover{
+    background-color: rgba(105, 80, 17, 0.774);
+}
+
+ /* Product Row 2 */
+.our-products .ourproduct_row2{
+    width: 30%;
+    margin: auto;
+}
+
+.ourproduct_img_col4{
+    border: 2px solid black;
+    width: 95%;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+.ourproduct_img_col4>img{
+    margin-top: 20px;
+    width: 65%;
+    padding-left: 13%;
+}
+.ourproduct_img_col4 h3{
+    margin-top: 2%;
+    padding-left:5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ourproduct_img_col4 .star{
+    color: rgb(255, 149, 0);
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: -20px;
+}
+.ourproduct_img_col4 .price{
+    font-size: 30px;
+    margin-top: 4px;
+    padding-left: 5%;
+}
+
+.ourproduct_img_col4 a{
+    text-align: center;
+    width: 9%;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 5px;
+    margin-top: -4.8%;
+    margin-left: 16%;
+    background-color:rgb(226, 136, 19);
+}
+.ourproduct_img_col4 a:hover{
+    background-color: rgba(105, 80, 17, 0.774);
+}
+
+/* summary for websites */
+
+.summary{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-top: 40px;
+    height: 270px;
+    width: 100%;
+    background-color: black;
+}
+.summary .logo-bottom{
+    margin-left: 12%;
+}
+.logo-bottom>h2{
+    color: white;
+    display:flex;
+    font-family:serif;
+    font-size:1.3rem;
+    font-style:oblique;
+    font-weight:bolder;
+    margin-left:27%;
+    margin-top: -2.6rem;
+}
+.logo-bottom>img{
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 4rem;
+    text-align: center;
+}
+.summary .logo-bottom p{
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.summary .navigation-bottom{
+    position: absolute;
+    right: 0px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.summary .navigation-bottom h3{
+    color: white;
+    font-size: 25px;
+}
+.summary .navigation-bottom a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.summary .useful-links{
+    position: absolute;
+    right: 0px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.summary .useful-links h3{
+    color: white;
+    font-size: 25px;
+}
+.summary .useful-links a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.summary .follow-us{
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.summary .follow-us h3{
+    color: white;
+    font-size: 25px;
+}
+.summary .follow-us a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+.copyright .straightline{
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    height:.1px;
+    width: 98.7%;
+    margin-top: -60px;
+}
+
+.copyright h3{
+    position: absolute;
+    color: white;
+    margin-top: -40px;
+    margin-left: 40%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
